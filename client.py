@@ -52,7 +52,7 @@ def connect_database():
         clear()
         signup_window.destroy()
         
-background=PhotoImage(file='./signup.png')
+background=PhotoImage(file='F:/instant-messaging-app/signup.png')
 Image_label=Label(signup_window,image=background,border=0,bg='#000000').place(x=50,y=90)
 
 frame=Frame(signup_window,bg="#000000")

@@ -2,7 +2,6 @@ from tkinter import*
 import tkinter as tk
 
 
-
 window=tk.Tk()
 window.title("instant messaging app - Menu")
 window.geometry('1000x500+300+200')
@@ -15,10 +14,15 @@ background=PhotoImage(file='./signup.png')
 Image_label=Label(image=background,border=0,bg='#000000').place(x=50,y=90)
 
 def client():
+    window.destroy()
     import client
+    
+
 def translator():
+    window.destroy()
     import language_translator
 def spelling():
+    window.destroy()
     import spellingcorrector
 def exit1():
     window.destroy()
